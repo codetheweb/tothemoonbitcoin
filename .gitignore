@@ -1,0 +1,4 @@
+# don't need node modules since
+# they can be installed with
+# `npm install`
+node_modules/*

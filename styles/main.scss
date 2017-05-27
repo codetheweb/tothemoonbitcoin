@@ -1,0 +1,105 @@
+// Loading spinner
+@import 'spinner';
+
+// (Extremely) simple homebrew grid system
+@import 'grid';
+
+// Global variables
+$accent-color: #ebb864;
+$border-radius: 2px;
+
+// Fixes issue in Safari when scrolling up will reveal white footer
+html, body {
+  background-color: rgb(1, 1, 1);
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  //background: #1d1d1d;
+  background: url('/images/moon.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+a {
+  color: $accent-color;
+}
+
+h1 {
+  color: lighten($accent-color, 20%);
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 600;
+  font-size: 5em;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1em;
+  margin: 0;
+}
+
+#price {
+  font-weight: bold;
+}
+
+.measure-type {
+  letter-spacing: 1.5px;
+  font-size: 2em;
+  text-transform: uppercase;
+}
+
+.separator {
+  font-size: 250%;
+  font-weight: 300;
+  margin: 0 1% 0 1%;
+}
+
+.measure-number {
+  border: 1px solid transparent; // so button doesn't 'shake' when border is applied
+  border-radius: $border-radius;
+  outline: none;
+  background: none;
+  color: white;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: 300;
+  letter-spacing: 3px;
+  font-size: 1em;
+  color: $accent-color;
+  padding: 0 1% 0 1%;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid $accent-color;
+    color: white;
+  }
+
+  &.active, &:active {
+    background: $accent-color;
+    color: white;
+  }
+}
+
+#percentage {
+  font-size: 3em;
+
+  .number {
+    color: $accent-color;
+    font-weight: bold;
+    margin-right: 0.3em;
+    letter-spacing: 2px;
+  }
+}
+
+#price {
+  letter-spacing: 2px;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+
+#donate-container {
+  font-family: monospace;
+  letter-spacing: 1px;
+
+  p {
+    margin: 0 0 1em 0;
+  }
+}

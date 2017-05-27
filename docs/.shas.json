@@ -1,0 +1,84 @@
+[
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "index.html",
+        "sha": "db3087d6a6430259e2140aa5609b64c659d39081"
+      }
+    ],
+    "outputSha": "cdcdd0fe99b48495bf417733945031228d775aa6",
+    "input": "index.html",
+    "output": [
+      "index.html"
+    ]
+  },
+  {
+    "type": "::map::minify",
+    "inputSha": [
+      {
+        "file": "scripts/main.js",
+        "sha": "57aa9f59841f5e945ff63afb471685c50bba8ffe"
+      }
+    ],
+    "outputSha": "572f757f2ee7acbceda1c2ed6a03edf9436b18ab",
+    "input": "scripts/main.js",
+    "output": [
+      "scripts/main.js.map",
+      "scripts/main.js"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/grid.scss",
+        "sha": "27ea69df29bb613c3677ae3e380c5901d19e59d6"
+      }
+    ],
+    "outputSha": "394bb050ad9e406807823a37208841280cc0fb46",
+    "input": "styles/grid.scss",
+    "output": [
+      "styles/grid.css.map",
+      "styles/grid.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/main.scss",
+        "sha": "a783ead4ee62d06320cbb7c5c34e7e7c7e127ed6"
+      },
+      {
+        "file": "styles/spinner.scss",
+        "sha": "27bc0890f99936cb7a66bdda167469b68c68e6a6"
+      },
+      {
+        "file": "styles/grid.scss",
+        "sha": "27ea69df29bb613c3677ae3e380c5901d19e59d6"
+      }
+    ],
+    "outputSha": "9d0a9593db417800ad5a99e9a18b658c09f9a638",
+    "input": "styles/main.scss",
+    "output": [
+      "styles/main.css.map",
+      "styles/main.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/spinner.scss",
+        "sha": "27bc0890f99936cb7a66bdda167469b68c68e6a6"
+      }
+    ],
+    "outputSha": "5c5fa6e1104f0a5a93e0ce0e90c088bcece7fb24",
+    "input": "styles/spinner.scss",
+    "output": [
+      "styles/spinner.css.map",
+      "styles/spinner.css"
+    ]
+  }
+]

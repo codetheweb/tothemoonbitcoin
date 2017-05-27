@@ -2,3 +2,6 @@
 # they can be installed with
 # `npm install`
 node_modules/*
+
+# ignore production build
+docs/*

@@ -1,6 +1,6 @@
 {
 	"name": "tothemoonbitcoin",
-	"exportDir": "dist",
+	"exportDir": "docs",
 	"minify": true,
 	"compile": true,
 	"exclusions": [

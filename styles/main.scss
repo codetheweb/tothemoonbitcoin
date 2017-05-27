@@ -4,9 +4,8 @@
 // (Extremely) simple homebrew grid system
 @import 'grid';
 
-// Global variables
+// Yellowish-gold accent color
 $accent-color: #ebb864;
-$border-radius: 2px;
 
 // Fixes issue in Safari when scrolling up will reveal white footer
 html, body {
@@ -15,7 +14,7 @@ html, body {
 
 body {
   font-family: 'Titillium Web', sans-serif;
-  //background: #1d1d1d;
+  background: #1d1d1d;
   background: url('/images/moon.jpg') no-repeat center center fixed;
   background-size: cover;
   color: white;
@@ -55,7 +54,7 @@ h1 {
 
 .measure-number {
   border: 1px solid transparent; // so button doesn't 'shake' when border is applied
-  border-radius: $border-radius;
+  border-radius: 2px;
   outline: none;
   background: none;
   color: white;
@@ -93,6 +92,7 @@ h1 {
   letter-spacing: 2px;
   font-size: 1.5em;
   font-weight: 300;
+  padding-top: 2em;
 }
 
 #donate-container {

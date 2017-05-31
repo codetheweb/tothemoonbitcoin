@@ -15,13 +15,13 @@ html, body {
 body {
   font-family: 'Titillium Web', sans-serif;
   background: #1d1d1d;
-  background: url('/images/moon.jpg') no-repeat center center fixed;
+  background: url('../images/moon.jpg') no-repeat center center fixed;
   background-size: cover;
   color: white;
 }
 
 a {
-  color: $accent-color;
+  color: invert($accent-color);
 }
 
 h1 {
@@ -79,6 +79,7 @@ h1 {
 
 #percentage {
   font-size: 3em;
+  padding-bottom: 1em;
 
   .number {
     color: $accent-color;
@@ -92,7 +93,6 @@ h1 {
   letter-spacing: 2px;
   font-size: 1.5em;
   font-weight: 300;
-  padding-top: 2em;
 }
 
 #donate-container {
@@ -102,4 +102,8 @@ h1 {
   p {
     margin: 0 0 1em 0;
   }
+}
+
+::selection {
+  background: invert($accent-color);
 }

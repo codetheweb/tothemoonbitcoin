@@ -6,6 +6,7 @@ html, body {
 
 body {
   display: flex;
+  text-align: center;
 }
 
 #container {
@@ -31,7 +32,8 @@ body {
 }
 
 .header {
-  padding-top: 1em;
+  padding-top: 0.5em;
+  box-sizing: border-box;
 }
 
 .footer {

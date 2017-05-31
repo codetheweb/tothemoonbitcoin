@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "db3087d6a6430259e2140aa5609b64c659d39081"
+        "sha": "00d3d16b15067b2bdc5fd28f60aa25db30c8bfc4"
       }
     ],
-    "outputSha": "cdcdd0fe99b48495bf417733945031228d775aa6",
+    "outputSha": "8c4ae8f347a13f5c963580ed8c5eda0a44e0ff16",
     "input": "index.html",
     "output": [
       "index.html"
@@ -18,10 +18,10 @@
     "inputSha": [
       {
         "file": "scripts/main.js",
-        "sha": "57aa9f59841f5e945ff63afb471685c50bba8ffe"
+        "sha": "b2f2d2cf1ca21551a0dcb17f36427de40474dfd0"
       }
     ],
-    "outputSha": "572f757f2ee7acbceda1c2ed6a03edf9436b18ab",
+    "outputSha": "9772a7c676bc815aaac107e648d3569b411110d1",
     "input": "scripts/main.js",
     "output": [
       "scripts/main.js.map",
@@ -32,23 +32,8 @@
     "type": "node-sass@4.5.3::map::minify",
     "inputSha": [
       {
-        "file": "styles/grid.scss",
-        "sha": "27ea69df29bb613c3677ae3e380c5901d19e59d6"
-      }
-    ],
-    "outputSha": "394bb050ad9e406807823a37208841280cc0fb46",
-    "input": "styles/grid.scss",
-    "output": [
-      "styles/grid.css.map",
-      "styles/grid.css"
-    ]
-  },
-  {
-    "type": "node-sass@4.5.3::map::minify",
-    "inputSha": [
-      {
         "file": "styles/main.scss",
-        "sha": "a783ead4ee62d06320cbb7c5c34e7e7c7e127ed6"
+        "sha": "a580f62531128e0f93fd5a7fa199113d61033b72"
       },
       {
         "file": "styles/spinner.scss",
@@ -56,10 +41,10 @@
       },
       {
         "file": "styles/grid.scss",
-        "sha": "27ea69df29bb613c3677ae3e380c5901d19e59d6"
+        "sha": "44cc47dd924198c8d5f14b8960d71345767ad6e3"
       }
     ],
-    "outputSha": "9d0a9593db417800ad5a99e9a18b658c09f9a638",
+    "outputSha": "75a86f035cc55a3cb58ff0c5ce2669c584ae2538",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
@@ -79,6 +64,21 @@
     "output": [
       "styles/spinner.css.map",
       "styles/spinner.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
+        "file": "styles/grid.scss",
+        "sha": "44cc47dd924198c8d5f14b8960d71345767ad6e3"
+      }
+    ],
+    "outputSha": "05b960bc9b8c38e85744a8a4ef1b9dea3fb607bd",
+    "input": "styles/grid.scss",
+    "output": [
+      "styles/grid.css.map",
+      "styles/grid.css"
     ]
   }
 ]

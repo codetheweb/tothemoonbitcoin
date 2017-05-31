@@ -27,9 +27,16 @@ $(document).ready(function() {
 
   // gets current USD price of 1 bitcoin from CoinDesk
   function getPriceUSD(callback) {
-    $.get('http://api.coindesk.com/v1/bpi/currentprice.json', function(response) {
-      var data = JSON.parse(response);
-      callback(parseFloat(data.bpi.USD.rate.replace(',', '')).toFixed(2));
+    $.ajax({
+      url: 'https://blockchain.info/ticker?&cors=true',
+      type: 'GET',
+      crossDomain: true,
+      success: function(response) {
+        callback(response['USD']['last']);
+      },
+      error: function(xhr, status) {
+        callback('error!');
+      }
     });
   }
 });

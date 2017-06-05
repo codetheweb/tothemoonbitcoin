@@ -6,18 +6,19 @@
     <meta name="viewport" content="width=device-width">
 
     <link rel="stylesheet" href="styles/main.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,600" rel="stylesheet">
   </head>
   <body class="column">
+    <iframe src="https://ghbtns.com/github-btn.html?user=codetheweb&repo=tothemoonbitcoin&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px" class="github-button"></iframe>
     <h1 class="row center header">To the Moon!</h1>
 
     <container id="container" class="column">
-      <div class="row center measure-type">Distance to moon</div>
-
-      <div class="row center middle-xs">
-        <button class="col-xs-2 measure-number active" data-measure="238855">238,855 mi</button>
-        <span class="col-xs-1 separator">/</span>
-        <button class="col-xs-2 measure-number" data-measure="384400">384,400 km</button>
+      <div class="row center measure-type">Distance to moon:</div>
+      <div class="row center">
+        <button class="measure-number active" data-measure="238855">238,855 mi</button>
+        <span class="separator">/</span>
+        <button class="measure-number" data-measure="384400">384,400 km</button>
+        <span class="separator">/</span>
+        <input type="text" id="measure-custom" class="measure-number" placeholder="CUSTOM"/>
       </div>
 
       <div class="row center" id="percentage"><span class="number">1%</span> there!</div>
@@ -40,7 +41,9 @@
     </container>
 
     <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="scripts/main.js"></script>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,600" rel="stylesheet">
   </body>
 </html>

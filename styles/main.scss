@@ -36,6 +36,11 @@ h1 {
   margin: 0;
 }
 
+.github-button {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
 #price {
   font-weight: bold;
 }
@@ -64,6 +69,11 @@ h1 {
   font-size: 1em;
   color: $accent-color;
   padding: 0 1% 0 1%;
+  text-align: center;
+
+  &::placeholder {
+    color: white;
+  }
 
   &:hover {
     cursor: pointer;

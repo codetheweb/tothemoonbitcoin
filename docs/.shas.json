@@ -4,10 +4,10 @@
     "inputSha": [
       {
         "file": "index.html",
-        "sha": "4e002e87edc6c9ff0630e2d947803d18511f8bee"
+        "sha": "ce1a02bbdddd1310d3d8305d95ae9d0d7636fa40"
       }
     ],
-    "outputSha": "68fdc93d4537b8d694724442900aef08e11bd429",
+    "outputSha": "a93f7df863cf1ed9b21feb9a071cc68bff66af5f",
     "input": "index.html",
     "output": [
       "index.html"
@@ -32,8 +32,23 @@
     "type": "node-sass@4.5.3::map::minify",
     "inputSha": [
       {
+        "file": "styles/spinner.scss",
+        "sha": "27bc0890f99936cb7a66bdda167469b68c68e6a6"
+      }
+    ],
+    "outputSha": "5c5fa6e1104f0a5a93e0ce0e90c088bcece7fb24",
+    "input": "styles/spinner.scss",
+    "output": [
+      "styles/spinner.css.map",
+      "styles/spinner.css"
+    ]
+  },
+  {
+    "type": "node-sass@4.5.3::map::minify",
+    "inputSha": [
+      {
         "file": "styles/main.scss",
-        "sha": "28e3b34dccffc57c8f217417dfe2eb0aebaa4d03"
+        "sha": "81c82dfbe14ef2a5c110fdd0793b48ed640bece9"
       },
       {
         "file": "styles/grid.scss",
@@ -44,26 +59,11 @@
         "sha": "27bc0890f99936cb7a66bdda167469b68c68e6a6"
       }
     ],
-    "outputSha": "78efb9b6887722079a13b077d39f63226b132623",
+    "outputSha": "3b2e7a98dc7538e39a09559bc0ce86358d539aed",
     "input": "styles/main.scss",
     "output": [
       "styles/main.css.map",
       "styles/main.css"
-    ]
-  },
-  {
-    "type": "node-sass@4.5.3::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/spinner.scss",
-        "sha": "27bc0890f99936cb7a66bdda167469b68c68e6a6"
-      }
-    ],
-    "outputSha": "5c5fa6e1104f0a5a93e0ce0e90c088bcece7fb24",
-    "input": "styles/spinner.scss",
-    "output": [
-      "styles/spinner.css.map",
-      "styles/spinner.css"
     ]
   },
   {

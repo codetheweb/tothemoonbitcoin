@@ -28,17 +28,18 @@ h1 {
   color: lighten($accent-color, 20%);
   font-family: 'Titillium Web', sans-serif;
   font-weight: 600;
-  font-size: 5em;
+  line-height: 9vh;
+  font-size: 9vh;
   letter-spacing: 10px;
   text-transform: uppercase;
   text-align: center;
-  line-height: 1em;
   margin: 0;
+  margin-bottom: 2vh;
 }
 
 .github-button {
-  margin-top: 1em;
-  margin-left: 1em;
+  margin-top: 2vh;
+  margin-left: 2vh;
 }
 
 #price {
@@ -47,14 +48,19 @@ h1 {
 
 .measure-type {
   letter-spacing: 1.5px;
-  font-size: 2em;
+  font-size: 4vh;
   text-transform: uppercase;
+  margin-bottom: 2vh;
 }
 
 .separator {
   font-size: 250%;
   font-weight: 300;
   margin: 0 1% 0 1%;
+}
+
+#measures {
+  flex-wrap: wrap;
 }
 
 .measure-number {
@@ -66,7 +72,7 @@ h1 {
   font-family: 'Titillium Web', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
-  font-size: 1em;
+  font-size: 3vh;
   color: $accent-color;
   padding: 0 1% 0 1%;
   text-align: center;
@@ -88,8 +94,8 @@ h1 {
 }
 
 #percentage {
-  font-size: 3em;
-  padding-bottom: 1em;
+  font-size: 7vh;
+  padding-bottom: 1.5vh;
 
   .number {
     color: $accent-color;
@@ -101,16 +107,18 @@ h1 {
 
 #price {
   letter-spacing: 2px;
-  font-size: 1.5em;
+  font-size: 3vh;
   font-weight: 300;
+  margin-bottom: 2vh;
 }
 
 #donate-container {
   font-family: monospace;
   letter-spacing: 1px;
+  font-size: 2vh;
 
   p {
-    margin: 0 0 1em 0;
+    margin: 0 0 2vh 0;
   }
 }
 

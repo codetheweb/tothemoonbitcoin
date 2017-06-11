@@ -27,58 +27,5 @@
       "scripts/main.js.map",
       "scripts/main.js"
     ]
-  },
-  {
-    "type": "node-sass@4.5.3::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/grid.scss",
-        "sha": "44cc47dd924198c8d5f14b8960d71345767ad6e3"
-      }
-    ],
-    "outputSha": "05b960bc9b8c38e85744a8a4ef1b9dea3fb607bd",
-    "input": "styles/grid.scss",
-    "output": [
-      "styles/grid.css.map",
-      "styles/grid.css"
-    ]
-  },
-  {
-    "type": "node-sass@4.5.3::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/spinner.scss",
-        "sha": "27bc0890f99936cb7a66bdda167469b68c68e6a6"
-      }
-    ],
-    "outputSha": "5c5fa6e1104f0a5a93e0ce0e90c088bcece7fb24",
-    "input": "styles/spinner.scss",
-    "output": [
-      "styles/spinner.css.map",
-      "styles/spinner.css"
-    ]
-  },
-  {
-    "type": "node-sass@4.5.3::map::minify",
-    "inputSha": [
-      {
-        "file": "styles/main.scss",
-        "sha": "81c82dfbe14ef2a5c110fdd0793b48ed640bece9"
-      },
-      {
-        "file": "styles/grid.scss",
-        "sha": "44cc47dd924198c8d5f14b8960d71345767ad6e3"
-      },
-      {
-        "file": "styles/spinner.scss",
-        "sha": "27bc0890f99936cb7a66bdda167469b68c68e6a6"
-      }
-    ],
-    "outputSha": "3b2e7a98dc7538e39a09559bc0ce86358d539aed",
-    "input": "styles/main.scss",
-    "output": [
-      "styles/main.css.map",
-      "styles/main.css"
-    ]
   }
 ]

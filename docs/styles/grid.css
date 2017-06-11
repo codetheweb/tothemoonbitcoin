@@ -1,2 +1,0 @@
-#container,.center,.column,.row,body{display:flex}body,html{height:100%;margin:0;padding:0}#container,.footer{margin-top:auto}body{text-align:center}.center{justify-content:center;align-items:center}.column{flex-direction:column}.row{width:100%;flex-direction:row}.header{padding-top:.5em;box-sizing:border-box}
-/*# sourceMappingURL=grid.css.map*/
